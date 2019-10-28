@@ -22,6 +22,8 @@
   },
   "homepage": "https://github.com/ppmiao0628/movie-trailer#readme",
   "dependencies": {
-    "koa2": "^2.0.0-alpha.7"
+    "ejs": "^2.7.1",
+    "koa2": "^2.0.0-alpha.7",
+    "pug": "^2.0.4"
   }
 }

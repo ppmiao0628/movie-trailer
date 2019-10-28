@@ -4,11 +4,13 @@
 
 const Koa = require('koa2');
 const app = new Koa();
-const {normal} = require('./tpl/index.js');
+const {htmlTpl, ejsTpl, pugTpl} = require('./tpl/index.js');
+const ejs = require('ejs');
+const pug = require('pug');
 
 app.use(async(ctx, next) => {
     ctx.type = 'text/html;charset=utf-8';
-    ctx.body = normal;
+    ctx.body = pug.render(pugTpl,{you:'ppm1',me:'keller1'});
 });
 console.log('listen port 4455');
 app.listen(4455);
