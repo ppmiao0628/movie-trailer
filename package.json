@@ -25,6 +25,13 @@
     "ejs": "^2.7.1",
     "koa-views": "^6.2.1",
     "koa2": "^2.0.0-alpha.7",
-    "pug": "^2.0.4"
+    "pug": "^2.0.4",
+    "puppeteer": "^2.0.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.6.0",
+    "@typescript-eslint/parser": "^2.6.0",
+    "eslint": "^6.6.0",
+    "eslint-plugin-vue": "^5.2.3"
   }
 }
