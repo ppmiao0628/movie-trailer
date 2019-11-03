@@ -47,6 +47,7 @@ return links;
 // await page.$('#gaia');
 // await page.pdf({path:'aaa.pdf',format:'A4'});
 await browser.close();
-console.log(result);
-
+// console.log(result);
+process.send({result});
+process.exit(0);
 })();
